@@ -1,0 +1,73 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------< com.smoothstack.december:administrator-microservice >---------
+[INFO] Building administrator-microservice 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ administrator-microservice >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ administrator-microservice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ administrator-microservice ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ administrator-microservice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/leeraulin/Projects/Smoothstack/lms-ms-app/administrator-microservice/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ administrator-microservice ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ administrator-microservice <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ administrator-microservice ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2020-01-25 21:02:28 [main] INFO  AdministratorMicroserviceApplication:55 - Starting AdministratorMicroserviceApplication on Lees-MacBook-Pro.local with PID 59757 (/Users/leeraulin/Projects/Smoothstack/lms-ms-app/administrator-microservice/target/classes started by leeraulin in /Users/leeraulin/Projects/Smoothstack/lms-ms-app/administrator-microservice)
+2020-01-25 21:02:28 [main] INFO  AdministratorMicroserviceApplication:651 - No active profile set, falling back to default profiles: default
+2020-01-25 21:02:29 [main] INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-25 21:02:29 [main] INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 55ms. Found 8 JPA repository interfaces.
+2020-01-25 21:02:29 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-25 21:02:29 [main] INFO  TomcatWebServer:92 - Tomcat initialized with port(s): 8086 (http)
+2020-01-25 21:02:29 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8086"]
+2020-01-25 21:02:29 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2020-01-25 21:02:29 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-25 21:02:29 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-01-25 21:02:29 [main] INFO  ContextLoader:284 - Root WebApplicationContext: initialization completed in 892 ms
+2020-01-25 21:02:29 [main] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-25 21:02:29 [main] INFO  Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-01-25 21:02:29 [main] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-25 21:02:29 [main] INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2020-01-25 21:02:30 [main] INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-01-25 21:02:30 [main] INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-01-25 21:02:30 [main] INFO  PojoInstantiator:67 - HHH000182: No default (no-argument) constructor for class: com.smoothstack.december.administratormicroservice.entity.BookLoanId (class must be instantiated by Interceptor)
+2020-01-25 21:02:30 [main] INFO  PojoInstantiator:67 - HHH000182: No default (no-argument) constructor for class: com.smoothstack.december.administratormicroservice.entity.BookCopyId (class must be instantiated by Interceptor)
+2020-01-25 21:02:30 [main] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-25 21:02:30 [main] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 21:02:30 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-25 21:02:30 [main] INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-25 21:02:31 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8086"]
+2020-01-25 21:02:31 [main] INFO  TomcatWebServer:204 - Tomcat started on port(s): 8086 (http) with context path ''
+2020-01-25 21:02:31 [main] INFO  AdministratorMicroserviceApplication:61 - Started AdministratorMicroserviceApplication in 2.658 seconds (JVM running for 3.21)
+2020-01-25 21:02:32 [SpringContextShutdownHook] INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-25 21:02:32 [SpringContextShutdownHook] INFO  LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-25 21:02:32 [SpringContextShutdownHook] INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-01-25 21:02:32 [SpringContextShutdownHook] INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.430 s
+[INFO] Finished at: 2020-01-25T21:02:32-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+{
+  "family": "admin-service",
+  "containerDefinitions": [
+    {
+      "name": "web",
+      "image": "536624574363.dkr.ecr.us-east-1.amazonaws.com/admin-service:latest",
+      "cpu": 128,
+      "memoryReservation": 128,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "protocol": "tcp"
+        }
+      ],
+      "command": [],
+      "essential": true
+    }
+  ]
+}
